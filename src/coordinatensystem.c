@@ -1,13 +1,13 @@
 //
 // Created by tombo on 02.06.2023.
 //
-#include "../include/koordinatensystem.h"
+#include "../include/coordinatensystem.h"
 #include <stdio.h>
 
 
 #define X_MAX 20
 #define Y_MAX 20
-#define FORMATIERUNGSFAKTOR 3
+#define FORMATFAKTOR 3
 
 
 void zeichne_koodinatensystem(int p1, int p2) {
@@ -19,8 +19,8 @@ void zeichne_koodinatensystem(int p1, int p2) {
     printf("   ^\n");
     for (int y = Y_MAX; y >= 0; y--) {
         printf("%2d |", y);
-        for (int x = 1; x < X_MAX*FORMATIERUNGSFAKTOR; x++) {
-            if (x == p1*FORMATIERUNGSFAKTOR && y == p2) {
+        for (int x = 1; x < X_MAX*FORMATFAKTOR; x++) {
+            if (x == p1*FORMATFAKTOR && y == p2) {
                 printf("x");  // Markierung des Punkts (10, 10)
             } else {
                 printf(" ");

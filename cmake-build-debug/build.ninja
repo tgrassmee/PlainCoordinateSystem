@@ -55,8 +55,8 @@ build CMakeFiles/untitled1.dir/main.c.obj: C_COMPILER__untitled1_Debug C$:/Users
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
 
-build CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj: C_COMPILER__untitled1_Debug C$:/Users/tombo/CLionProjects/untitled1/src/koordinatensystem.c || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\src\koordinatensystem.c.obj.d
+build CMakeFiles/untitled1.dir/src/coordinatensystem.c.obj: C_COMPILER__untitled1_Debug C$:/Users/tombo/CLionProjects/untitled1/src/coordinatensystem.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\src\coordinatensystem.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu99
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\src
@@ -69,7 +69,7 @@ build CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj: C_COMPILER__untitled
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.c.obj CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj
+build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.c.obj CMakeFiles/untitled1.dir/src/coordinatensystem.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir
