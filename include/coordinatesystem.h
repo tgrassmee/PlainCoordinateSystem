@@ -5,10 +5,7 @@
 #ifndef UNTITLED1_COORDINATESYSTEM_H
 #define UNTITLED1_COORDINATESYSTEM_H
 
-typedef struct {
-    int x;
-    int y;
-} Point;
+typedef struct {int x;int y;} Point;
 
 
 void draw_coordinatesystem(Point points[], int size);
