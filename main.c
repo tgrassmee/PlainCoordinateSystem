@@ -4,7 +4,7 @@
 
 
 int main() {
-    zeichne_koodinatensystem(1,1);
+    draw_coodinatensystem(1,1);
     return 0;
 }
 

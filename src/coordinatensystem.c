@@ -10,7 +10,7 @@
 #define FORMATFAKTOR 3
 
 
-void zeichne_koodinatensystem(int p1, int p2) {
+void draw_coodinatensystem(int p1, int p2) {
     // Bildschirm löschen und Cursor ausblenden
     printf("\x1b[2J\x1b[?25l");
 
