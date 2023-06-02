@@ -1,0 +1,17 @@
+# ninja log v5
+68	148	7074042618687589	untitled1.exe	57de3254edece039
+2	67	7074042617921944	CMakeFiles/untitled1.dir/main.c.obj	6f6547db5fdc3b99
+1	124	7074050177265564	build.ninja	92d84cc48aca8f6c
+1	55	7074050178350290	CMakeFiles/untitled1.dir/main.c.obj	6f6547db5fdc3b99
+5	65	7074050178451750	CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj	3849e4d31864819a
+65	154	7074050179279652	untitled1.exe	833baaee6befbe2a
+6	58	7074051549195706	CMakeFiles/untitled1.dir/main.c.obj	6f6547db5fdc3b99
+1	63	7074051549234939	CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj	3849e4d31864819a
+63	145	7074051550020751	untitled1.exe	833baaee6befbe2a
+1	66	7074052603521844	CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj	3849e4d31864819a
+66	147	7074052604277557	untitled1.exe	833baaee6befbe2a
+10	66	7074052952339684	CMakeFiles/untitled1.dir/main.c.obj	6f6547db5fdc3b99
+2	72	7074052952398177	CMakeFiles/untitled1.dir/src/koordinatensystem.c.obj	3849e4d31864819a
+72	151	7074052953140357	untitled1.exe	833baaee6befbe2a
+1	60	7074053055770548	CMakeFiles/untitled1.dir/main.c.obj	6f6547db5fdc3b99
+61	139	7074053056518658	untitled1.exe	833baaee6befbe2a
