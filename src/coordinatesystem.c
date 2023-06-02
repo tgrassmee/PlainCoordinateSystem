@@ -1,7 +1,7 @@
 //
 // Created by tombo on 02.06.2023.
 //
-#include "../include/coordinatensystem.h"
+#include "../include/coordinatesystem.h"
 #include <stdio.h>
 
 
@@ -10,7 +10,7 @@
 #define FORMATFAKTOR 3
 
 
-void draw_coodinatensystem(int p1, int p2) {
+void draw_coordinatesystem(int p1, int p2) {
     // Bildschirm löschen und Cursor ausblenden
     printf("\x1b[2J\x1b[?25l");
 

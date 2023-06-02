@@ -1,10 +1,10 @@
-#include "include/coordinatensystem.h"
+#include "include/coordinatesystem.h"
 
 
 
 
 int main() {
-    draw_coodinatensystem(1,1);
+    draw_coordinatesystem(1,1);
     return 0;
 }
 
