@@ -4,5 +4,12 @@
 
 #ifndef UNTITLED1_COORDINATESYSTEM_H
 #define UNTITLED1_COORDINATESYSTEM_H
-void draw_coordinatesystem(int p1, int p2);
+
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+
+void draw_coordinatesystem(Point points[], int size);
 #endif //UNTITLED1_COORDINATESYSTEM_H

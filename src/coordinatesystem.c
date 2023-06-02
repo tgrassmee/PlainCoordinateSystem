@@ -10,7 +10,7 @@
 #define FORMATFAKTOR 3
 
 
-void draw_coordinatesystem(int p1, int p2) {
+void draw_coordinatesystem(Point points[], int size) {
     // Bildschirm löschen und Cursor ausblenden
     printf("\x1b[2J\x1b[?25l");
 
@@ -20,10 +20,16 @@ void draw_coordinatesystem(int p1, int p2) {
     for (int y = Y_MAX; y >= 0; y--) {
         printf("%2d |", y);
         for (int x = 1; x < X_MAX*FORMATFAKTOR; x++) {
-            if (x == p1*FORMATFAKTOR && y == p2) {
-                printf("x");  // Markierung des Punkts (10, 10)
-            } else {
-                printf(" ");
+            int markiert = 0;
+            for (int i = 0; i < size; i++) {
+                if (points[i].x == x && points[i].y == y) {
+                    printf(" O ");  // Markierung des Punkts
+                    markiert = 1;
+                    break;
+                }
+            }
+            if (!markiert) {
+                printf("   ");
             }
         }
         printf("\n");
@@ -46,6 +52,5 @@ void draw_coordinatesystem(int p1, int p2) {
     // Cursor wieder einblenden
     printf("\x1b[?25h");
 
-    return 0;
 }
 
